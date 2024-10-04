@@ -1,0 +1,1 @@
+from app.classes.telegram_bot.rocket_launch_bot import RocketLaunchBot
