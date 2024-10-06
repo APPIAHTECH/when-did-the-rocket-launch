@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ## Running Unit Tests
 
-Tests use **unittest** and mock AWS interactions. Ensure that tests are run in an isolated environment without interacting with real AWS resources.
+Tests use **unittest** and mock Telegram interactions.
 
 1. **Install Testing Dependencies**:
 
