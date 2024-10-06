@@ -1,4 +1,5 @@
 import os
+from typing import Final
 
 from dotenv import load_dotenv
 
@@ -13,7 +14,7 @@ class Config:
     APP_VERSION: str = "1.0.0"
 
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_BOT_USERNAME = os.getenv("TELEGRAM_BOT_USERNAME")
+TELEGRAM_TOKEN: Final = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_BOT_USERNAME: Final = os.getenv("TELEGRAM_BOT_USERNAME")
 
 settings = Config()

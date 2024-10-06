@@ -1,4 +1,8 @@
 from enum import Enum
+from typing import Final
+
+from app.models.color import Color
+from app.models.size import Size
 
 
 class Environment(str, Enum):
@@ -25,3 +29,8 @@ class Environment(str, Enum):
             return Environment[env.upper()]
         except KeyError:
             raise ValueError(f"Invalid environment: {env}")
+
+
+VIDEO_NAME: Final = "Falcon Heavy Test Flight (Hosted Webcast)-wbSwFU6tY1c"
+DISPLAY_SIZE: Final = Size(int(480 * 1.5), int(270 * 1.5))
+BLACK: Final = Color(0, 0, 0)
