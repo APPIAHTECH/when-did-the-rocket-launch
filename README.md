@@ -98,4 +98,4 @@ To ensure the code is maintainable and scalable, the following practices were im
 
 - **Consistent Naming Conventions**: Variables, functions, and classes are named descriptively, making the code easier to read and understand.
 
-- **Unit Testing**: Creating unit tests with mocking indicates a commitment to code quality and reliability. It shows an understanding of TDD (Test-Driven Development) principles, which is crucial for maintaining large codebases.
+- **Unit Testing**: Creating unit tests with mocking indicates a commitment to code quality and reliability.
