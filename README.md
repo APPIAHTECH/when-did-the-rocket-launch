@@ -62,7 +62,7 @@ Run tests using the following command:
 python -m unittest discover
 ```
 
-Tests are located in the `tests/` folder. These will mock S3 services to avoid actual AWS calls during testing.
+Tests are located in the `tests/` folder. These will mock Telegram bot services to avoid actual Telegram bot calls during testing.
 
 ---
 
